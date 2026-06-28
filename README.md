@@ -37,9 +37,13 @@ It works i guess.
 * The name SIFF is dumb because it's derived from IFF and i had to add something to it
 * ED D1 is picked as the file header because basically every other one is used.
 * Despite what some may say, this doesn't need a file size bit in the header because YOU CAN JUST CHECK THE FILE SIZE. IT'S NOT THAT HARD
+* There's no padding sorry. No nesting or nothing either and chunk IDs can be basically anything
+* If a chunk is malformed, your pet rock WILL be stolen and might even have googly eyes put on it\[4\]
+
 
 ## 4. Footnotes
 
 1. I am not responsible for any pet rock thefts caused by the SIFF file format
 2. Seriously, what did you expect?
 3. Little-endian despite some architecture's protests
+4. Yes, i've made that joke before
