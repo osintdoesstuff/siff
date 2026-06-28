@@ -15,7 +15,7 @@ Note that SIFF is fully little-endian\[3\].
 The file header is like this:
 
 ```psudeo
-byte[2] magic = [0xED, 0xDI] // 2 bytes
+byte[2] magic = [0xED, 0xD1] // 2 bytes
 byte version = 4 // we're on v4 right now, v0, v1, v2, and v3 were just prototypes dw
 uint16 chunkCount = 69 // or something i dunno, this is also 2 bytes in case you can't read
 ```
