@@ -36,6 +36,7 @@ It works i guess.
 
 * The name SIFF is dumb because it's derived from IFF and i had to add something to it
 * ED D1 is picked as the file header because basically every other one is used.
+* Despite what some may say, this doesn't need a file size bit in the header because YOU CAN JUST CHECK THE FILE SIZE. IT'S NOT THAT HARD
 
 ## 4. Footnotes
 
